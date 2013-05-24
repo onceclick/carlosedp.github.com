@@ -9,6 +9,7 @@ function FindProxyForURL(url, host)
   if (shExpMatch(url, "*streamtheworld.com*")) { return proxy_yes; }
   if (shExpMatch(url, "*targetspot.com*")) { return proxy_yes; }
   if (shExpMatch(url, "*spotify.com*")) { return proxy_yes; }
+  if (shExpMatch(url, "*iheart.com*")) { return proxy_yes; }
 
   // Proxy anything else
   return proxy_no;
